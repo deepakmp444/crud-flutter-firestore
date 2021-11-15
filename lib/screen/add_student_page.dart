@@ -18,7 +18,7 @@ class _AddStudentPageState extends State<AddStudentPage> {
   final nameController = TextEditingController();
   final passwordController = TextEditingController();
 
-// delete code
+// addUser code
   CollectionReference addStudent =
       FirebaseFirestore.instance.collection('student');
 
